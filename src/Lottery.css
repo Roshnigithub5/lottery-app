@@ -1,0 +1,83 @@
+@media (orientation : landscape) {
+    body {
+        background: linear-gradient(30deg, blue, lightblue, blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    span {
+        border : 1px solid black;
+        padding: 5px;
+        margin : 0 3px 0 3px;
+        font-size: 3rem;
+    }
+    
+    #btn {
+        margin : 1rem 0 1rem 0;
+        border: 1px solid black;
+        background-color: pink;
+    }
+    
+    .ticket {
+        height: inherit;
+        padding : 10px;
+        border : 2px solid black;
+        border-radius: 10px;
+    }
+    
+    @keyframes example {
+        0%   {color: pink;}
+        25%  {color: yellow;}
+        50%  {color:black;}
+        100% {color:indigo;}
+      }
+      
+      /* The element to apply the animation to */
+     .win {
+        color : red;
+        animation-name: example;
+        animation-duration: 5s;
+      }
+}
+
+@media (orientation : portrait) {
+    body {
+        background: linear-gradient(30deg, blue, lightblue, blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    span {
+        border : 1px solid black;
+        padding: 5px;
+        margin : 0 3px 0 3px;
+        font-size: 3rem;
+    }
+    
+    #btn {
+        margin : 1rem 0 1rem 0;
+        border: 1px solid black;
+        background-color: pink;
+    }
+    
+    .ticket {
+        height: inherit;
+        padding : 10px;
+        border : 2px solid black;
+        border-radius: 10px;
+    }
+    
+    @keyframes example {
+        0%   {color: pink;}
+        25%  {color: yellow;}
+        50%  {color:black;}
+        100% {color:indigo;}
+      }
+      
+      /* The element to apply the animation to */
+     .win {
+        color : red;
+        animation-name: example;
+        animation-duration: 5s;
+      }
+}
